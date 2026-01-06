@@ -7,3 +7,6 @@ This document includes:
 1. [Recommendation](BYU_CS_Claude_Integration_Recommendation.md)
 2. [Implementation Plan](BYU_CS_Implementation_Plan.md)
 3. [An example project in CS 260](CS260_Assignment_Example_with_Claude.md)
+
+
+"The tools to multiply human output by a factor of five are already here. They require only a willingness to stop thinking of AI as an assistant and start treating it as a workforce. The programmers who make that mental leap first won't just be more productive. They'll be playing an entirely different game — and everyone else will still be typing." [Boris Cherny, creator of Claude code](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)
