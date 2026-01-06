@@ -815,6 +815,586 @@ Autograder checks:
 
 **Key Principle:** Design assignments where Claude is a useful tool but cannot replace the thinking, analysis, and decision-making that demonstrates learning.
 
+### Appendix G: Building Faculty Confidence with Claude
+
+**Challenge:** Faculty may feel uncertain about using Claude themselves, let alone teaching with it. Many may worry they lack the expertise to guide students in AI-assisted development.
+
+**Solution:** Structured hands-on learning experiences that build confidence through practical use.
+
+---
+
+## Why Faculty Confidence Matters
+
+Faculty who are confident Claude users will:
+- Design better AI-appropriate assignments
+- Guide students more effectively when they get stuck
+- Recognize when students are over-relying on AI vs. using it appropriately
+- Model professional AI collaboration for students
+- Troubleshoot issues during the semester
+- Feel empowered rather than threatened by AI tools
+
+**Key Insight:** Faculty don't need to be "Claude experts" - they need to be confident users who understand Claude's strengths, limitations, and appropriate use cases.
+
+---
+
+## Faculty Learning Path: From Novice to Confident User
+
+### Phase 1: Personal Exploration (Week 1-2)
+**Goal:** Get comfortable with basic Claude interactions
+
+**Activities:**
+1. **Sign up and explore** - Create Claude.ai account, try free tier
+2. **Daily practice** - Use Claude for 15 minutes/day on personal tasks:
+   - "Explain this research paper abstract in simple terms"
+   - "Help me debug this Python script I wrote for data analysis"
+   - "Review my draft email to the department for clarity"
+   - "Suggest 5 creative examples to explain recursion to beginners"
+
+3. **Keep a learning journal** - Document:
+   - What worked well
+   - Where Claude struggled
+   - Surprising capabilities or limitations
+   - Ideas for classroom use
+
+**Outcome:** Faculty experience Claude as a helpful tool, not a mysterious black box.
+
+---
+
+### Phase 2: Teaching-Related Tasks (Week 3-4)
+**Goal:** Use Claude for actual faculty work to see benefits firsthand
+
+**Suggested Faculty Projects:**
+
+#### Project 1: Assignment Redesign with Claude
+**Task:** Take an existing assignment and discuss with Claude how to make it AI-appropriate.
+
+**Process:**
+```
+Faculty → Claude: "I have an assignment where students implement a binary search
+tree in Java. How can I redesign this for an environment where students can use
+AI assistants, while still ensuring they learn data structures?"
+
+Claude → Faculty: [Suggests comparative implementation, explanation requirements,
+constraint-based approaches, etc.]
+
+Faculty → Claude: "The constraint-based idea is interesting. Can you help me
+design specific constraints that would test understanding?"
+
+[Continues discussion, iterating on assignment design]
+```
+
+**What faculty learn:**
+- How to have design conversations with Claude
+- Claude can generate ideas but faculty makes final decisions
+- Iterative prompting yields better results
+- Claude understands pedagogical goals
+
+**Deliverable:** Redesigned assignment ready to pilot
+
+---
+
+#### Project 2: Generate Test Cases with Claude
+**Task:** Use Claude to generate comprehensive test cases for an assignment autograder.
+
+**Process:**
+```
+Faculty → Claude: "I need to create test cases for a student assignment where
+they implement a REST API for a library system. The API should handle books,
+users, and checkouts. What test cases should I include?"
+
+Claude → Faculty: [Lists functional tests, edge cases, error conditions,
+security tests]
+
+Faculty → Claude: "Good start. I especially need tests for the checkout logic -
+can you generate specific test cases for edge cases like: checking out a book
+that's already checked out, returning a book that wasn't checked out, etc.?"
+
+Claude → Faculty: [Generates specific test code]
+
+Faculty: [Reviews, modifies, and adds to autograder]
+```
+
+**What faculty learn:**
+- Claude can accelerate tedious tasks (test case generation)
+- Still need to review and verify Claude's output
+- Specific prompts yield better results than generic ones
+- Claude understands technical requirements
+
+**Deliverable:** Comprehensive test suite for autograder
+
+---
+
+#### Project 3: Create Rubric with Claude
+**Task:** Design a grading rubric for a design document or project reflection.
+
+**Process:**
+```
+Faculty → Claude: "I need a rubric to grade student design documents for a
+web application project. Students should explain their architecture, database
+schema, and API design. The rubric should assess whether they understand their
+choices, not just whether they made correct choices. Help me design this."
+
+Claude → Faculty: [Suggests rubric dimensions, point allocations, descriptors
+for each level]
+
+Faculty → Claude: "I like this, but I want to emphasize justification and
+tradeoff analysis more. Can you revise?"
+
+[Iterate until satisfied]
+```
+
+**What faculty learn:**
+- Claude can help structure rubrics
+- Faculty expertise guides the criteria
+- Rubrics can assess understanding vs. correctness
+- Claude understands educational assessment
+
+**Deliverable:** Clear rubric for subjective assessment
+
+---
+
+#### Project 4: Build Sample Solutions
+**Task:** Use Claude to help create reference implementations for assignments.
+
+**Process:**
+```
+Faculty → Claude: "I'm creating a sample solution for a student assignment:
+implement a task queue using both an array-based circular buffer and a linked
+list. Can you help me implement both versions?"
+
+Claude → Faculty: [Generates both implementations]
+
+Faculty: [Reviews code, tests it, identifies issues]
+
+Faculty → Claude: "The linked list version doesn't handle the case where the
+queue is empty. Can you add error handling?"
+
+Claude → Faculty: [Adds error handling]
+
+Faculty: [Continues refining until it matches expected quality]
+```
+
+**What faculty learn:**
+- Claude can generate working code quickly
+- Faculty must verify correctness (doesn't replace testing)
+- Can iterate to improve code quality
+- Helps create multiple solution approaches for comparison
+
+**Deliverable:** Reference implementations for assignment
+
+---
+
+#### Project 5: Design Lecture Examples
+**Task:** Generate code examples or explanations for lecture topics.
+
+**Process:**
+```
+Faculty → Claude: "I'm teaching about design patterns next week. I need a
+concrete example of the Observer pattern that students can relate to. Preferably
+something more interesting than the typical weather station example."
+
+Claude → Faculty: [Suggests social media notification system, stock price
+tracker, collaborative document editor, etc.]
+
+Faculty → Claude: "I like the social media notification idea. Can you implement
+a simple version in Python with detailed comments explaining how the Observer
+pattern works?"
+
+Claude → Faculty: [Generates commented code example]
+```
+
+**What faculty learn:**
+- Claude can generate creative examples
+- Can tailor examples to specific learning objectives
+- Code explanations can supplement lectures
+- Useful for generating multiple examples quickly
+
+**Deliverable:** Engaging lecture examples
+
+---
+
+### Phase 3: Collaborative Learning (Week 5-6)
+**Goal:** Faculty learn from each other's experiences
+
+**Activities:**
+
+#### Faculty Sharing Sessions
+- **Weekly roundtable:** Faculty share:
+  - "This week I used Claude to..."
+  - "Something that worked well..."
+  - "Something that didn't work..."
+  - "A limitation I discovered..."
+
+#### Peer Observation
+- Faculty observe each other using Claude for tasks
+- Share prompting strategies
+- Discuss different approaches to the same problem
+
+#### Shared Prompt Library
+- Create department repository of effective prompts:
+  - Assignment redesign prompts
+  - Test case generation prompts
+  - Code review prompts
+  - Explanation generation prompts
+
+**Outcome:** Community of practice around AI-assisted teaching
+
+---
+
+## Best Practices for Learning Claude
+
+### 1. Start with Your Own Work
+**Don't:** Start by designing student assignments
+**Do:** Use Claude for your own tasks first (grading, research, coding)
+**Why:** Lower stakes, immediate feedback on what works
+
+### 2. Iterate Your Prompts
+**Don't:** Expect perfect results from first prompt
+**Do:** Treat conversation as iterative refinement
+**Why:** Claude gets better with context and clarification
+
+**Example progression:**
+```
+Prompt 1: "Help me design a database"
+→ Too vague, Claude asks clarifying questions
+
+Prompt 2: "Help me design a database schema for a restaurant review app with
+restaurants and reviews"
+→ Better, Claude provides basic schema
+
+Prompt 3: "The schema looks good. Should reviews be embedded in restaurant
+documents or in a separate collection? I'm using MongoDB and expect restaurants
+to have hundreds of reviews."
+→ Claude discusses tradeoffs specific to your context
+```
+
+### 3. Verify, Don't Trust Blindly
+**Don't:** Copy-paste Claude's code without understanding
+**Do:** Test, verify, and understand before using
+**Why:** Claude makes mistakes; you're responsible for correctness
+
+**Practice:**
+- Read all generated code
+- Test with edge cases
+- Ask Claude to explain parts you don't understand
+- Modify to fit your exact needs
+
+### 4. Use Claude for Brainstorming, Not Final Decisions
+**Don't:** Accept Claude's first suggestion as the answer
+**Do:** Use Claude to generate options, then apply your expertise
+**Why:** You understand context Claude doesn't (student level, course goals, time constraints)
+
+### 5. Be Specific
+**Don't:** "Make this code better"
+**Do:** "Refactor this code to use the Strategy pattern, add comments explaining the pattern, and handle the case where no strategy is provided"
+**Why:** Specific prompts yield useful results
+
+### 6. Ask Claude to Explain Its Reasoning
+**Helpful prompts:**
+- "Why did you choose this approach?"
+- "What are the tradeoffs of this solution?"
+- "What alternative approaches exist?"
+- "Explain this code line by line"
+
+### 7. Use Claude as a Thinking Partner
+**Effective patterns:**
+- "I'm considering two approaches: A and B. Help me analyze the tradeoffs"
+- "Here's my current design. What potential issues do you see?"
+- "I'm stuck on X. Can you suggest approaches I might not have considered?"
+
+---
+
+## Recommended Training Resources
+
+### 1. Anthropic Official Resources
+
+**Claude.ai Quick Start Guide**
+- Interactive tutorial when you first sign up
+- Covers basic prompting, conversation features, file uploads
+- ~15 minutes
+- **Link:** Available at claude.ai after sign-up
+
+**Anthropic Documentation**
+- Comprehensive guide to Claude's capabilities
+- Best practices for prompting
+- API documentation (for autograding use)
+- **Link:** docs.anthropic.com
+
+**Prompt Engineering Guide**
+- Techniques for effective prompting
+- Examples for different tasks
+- Common pitfalls to avoid
+- **Recommended sections for faculty:**
+  - "Be clear and direct"
+  - "Use examples (multishot prompting)"
+  - "Give Claude a role"
+  - "Use XML tags for structure"
+
+### 2. Self-Paced Learning Activities
+
+**Week 1-2: Foundations**
+- Sign up for Claude.ai (free tier sufficient for learning)
+- Complete built-in tutorial
+- Read: "Prompt Engineering Guide" (30 min)
+- Practice: Use Claude for 3 personal tasks daily
+
+**Week 3-4: Teaching Applications**
+- Complete one faculty project (from list above)
+- Read: "Claude for Education" use cases
+- Practice: Redesign one existing assignment with Claude's help
+
+**Week 5-6: Advanced Techniques**
+- Experiment with longer conversations (building context)
+- Try file uploads (give Claude your syllabus to analyze)
+- Practice: Create test cases or rubrics with Claude
+- Attend: Faculty sharing session to learn from peers
+
+### 3. BYU-Specific Training Workshop Series
+
+**Proposed Workshop Series (May 2026)**
+
+#### Workshop 1: "Getting Started with Claude" (2 hours)
+**Format:** Hands-on computer lab session
+
+**Agenda:**
+- 0:00-0:15: Introduction and account setup
+- 0:15-0:45: Guided exercises:
+  - Basic conversation
+  - Iterative prompting
+  - Code generation and explanation
+  - File uploads
+- 0:45-1:15: Faculty projects (hands-on):
+  - Each faculty picks one task (assignment redesign, test generation, etc.)
+  - Work individually with Claude
+  - Facilitator circulates to help
+- 1:15-1:45: Share and discuss:
+  - What worked well?
+  - What was surprising?
+  - What didn't work as expected?
+- 1:45-2:00: Best practices recap and Q&A
+
+**Deliverable:** Each faculty completes one meaningful task using Claude
+
+---
+
+#### Workshop 2: "Designing AI-Era Assignments" (2 hours)
+**Format:** Design studio
+
+**Agenda:**
+- 0:00-0:20: Presentation on assignment design principles
+  - Multi-dimensional assessment
+  - Cheat-resistant patterns
+  - Examples from CS 260, 340, 329
+- 0:20-1:00: Hands-on redesign:
+  - Faculty bring existing assignment
+  - Use Claude to brainstorm redesign ideas
+  - Apply cheat-resistant patterns
+  - Design rubric with Claude
+- 1:00-1:30: Peer review:
+  - Small groups (3-4 faculty)
+  - Share redesigned assignments
+  - Give feedback
+  - Discuss challenges
+- 1:30-2:00: Whole group sharing and refinement
+
+**Deliverable:** Draft of AI-appropriate assignment for each faculty member
+
+---
+
+#### Workshop 3: "Autograding with Claude API" (2 hours)
+**Format:** Technical training
+
+**Agenda:**
+- 0:00-0:30: Introduction to Claude API
+  - API basics and authentication
+  - Differences from chat interface
+  - Cost considerations
+  - Demo: Grading a design document via API
+- 0:30-1:00: Hands-on API practice:
+  - Set up API key
+  - Write simple grading script
+  - Test with sample student work
+- 1:00-1:30: Rubric design for automated grading:
+  - What can Claude assess well?
+  - What needs human review?
+  - Calibration process
+  - Quality control strategies
+- 1:30-2:00: Planning session:
+  - Which assignments will use Claude API grading?
+  - Timeline for implementation
+  - Support needed
+
+**Deliverable:** Working autograding script for at least one assignment component
+
+---
+
+#### Workshop 4: "Academic Integrity in the AI Era" (1.5 hours)
+**Format:** Discussion and policy workshop
+
+**Agenda:**
+- 0:00-0:20: Framing the issue
+  - Traditional academic integrity vs. AI era
+  - BYU Honor Code considerations
+  - Student perspectives on AI use
+- 0:20-0:50: Hands-on: Distinguishing good vs. problematic AI use
+  - Review sample student submissions
+  - Practice identifying over-reliance on AI
+  - Discuss borderline cases
+- 0:50-1:20: Syllabus language workshop:
+  - Draft AI usage policies for syllabi
+  - Create assignment tiers (encouraged/allowed/prohibited)
+  - Develop student guidelines
+- 1:20-1:30: Commitment and next steps
+
+**Deliverable:** Draft syllabus language on AI usage
+
+---
+
+### 4. Ongoing Support Structures
+
+**Weekly Office Hours (Fall 2026)**
+- AI Integration Coordinator holds weekly office hours
+- Faculty drop in with questions, challenges, or to share successes
+- Troubleshoot issues together
+
+**Slack/Teams Channel**
+- Async communication for quick questions
+- Share prompts that worked well
+- Discuss student situations
+- Celebrate successes
+
+**Monthly Faculty Learning Community**
+- 1-hour lunch meeting
+- Share what's working in classes
+- Discuss challenges
+- Guest speakers (industry professionals on AI in development)
+
+---
+
+## Building Confidence Through Success Stories
+
+**Strategy:** Help faculty see concrete benefits early
+
+### Quick Wins (First 2 Weeks)
+
+**Win 1: "Claude helped me redesign an assignment in 30 minutes"**
+- Old assignment: "Implement binary search tree"
+- New assignment: "Implement BST and AVL tree, benchmark both, analyze tradeoffs"
+- Claude helped: Generate the AVL tree reference code, suggest benchmark criteria, draft rubric
+
+**Win 2: "Claude generated 20 test cases I hadn't thought of"**
+- Testing an API assignment
+- Claude suggested edge cases, security tests, performance tests
+- Faculty refined and added to autograder
+
+**Win 3: "Claude helped me explain a complex topic better"**
+- Topic: Database normalization
+- Claude generated 3 different real-world examples
+- Faculty picked the best one for lecture
+
+### Medium-Term Wins (Month 1-2)
+
+**Win 4: "Students are having better design conversations"**
+- Students use Claude to explore architecture options
+- Come to office hours with more sophisticated questions
+- Design documents show deeper thinking
+
+**Win 5: "Autograding is actually assessing understanding"**
+- Claude API grades design documents
+- Identifies when explanations are superficial
+- Provides specific feedback to students
+- Faculty spot-checks and agrees with assessments
+
+### Long-Term Wins (Semester End)
+
+**Win 6: "Students are more prepared for industry"**
+- Exit surveys show confidence in AI-assisted development
+- Students can articulate when to use AI vs. work independently
+- Projects are more sophisticated than previous years
+
+**Win 7: "I'm teaching more advanced content"**
+- AI handles boilerplate, students focus on architecture
+- Covered design patterns that usually get skipped
+- Student projects demonstrate deeper understanding
+
+---
+
+## Addressing Faculty Concerns
+
+### "I'm not technical enough to use Claude"
+**Response:** Claude is a conversation tool, not a programming tool. If you can describe what you need in English, Claude can help. Faculty don't need to be Claude experts - start with simple tasks and build from there.
+
+**Confidence builder:** Have faculty use Claude for non-technical tasks first:
+- "Summarize this research paper"
+- "Help me write an email to students about late policy"
+- "Suggest discussion questions for this reading"
+
+Once comfortable with conversation, move to technical tasks.
+
+### "What if students know Claude better than I do?"
+**Response:** Students probably will know different Claude techniques - that's fine! Faculty expertise is in CS concepts, pedagogy, and assessment design. Claude is just a tool.
+
+**Reframe:** Faculty don't need to be the best Claude users - they need to guide students in using Claude appropriately for learning.
+
+### "I'm worried I'll look foolish if Claude gives wrong answers"
+**Response:** Claude makes mistakes - that's a teaching opportunity! Model critical thinking by verifying Claude's outputs.
+
+**Practice:** Intentionally show students examples where Claude gets things wrong, demonstrate how to verify and correct.
+
+### "This feels like cheating"
+**Response:** Professionals use AI tools. Teaching students to use them effectively is preparing them for reality, not enabling cheating.
+
+**Mindset shift:** We're teaching "programming with AI assistance" - a different but legitimate skill from "programming without any help."
+
+### "I don't have time to learn a new tool"
+**Response:** Time investment upfront saves time later. Claude can:
+- Generate test cases in minutes (vs. hours manually)
+- Draft rubrics (vs. starting from scratch)
+- Create example code (vs. writing every example yourself)
+
+**Start small:** Even 2-3 hours of initial learning yields time savings within weeks.
+
+---
+
+## Measuring Faculty Confidence Growth
+
+**Pre-Workshop Survey:**
+- How comfortable are you using AI tools? (1-5)
+- Have you used Claude before? (Y/N)
+- How confident are you in teaching with AI tools? (1-5)
+- What concerns do you have?
+
+**Mid-Semester Check:**
+- How often do you use Claude for course prep? (Daily/Weekly/Monthly/Never)
+- Name 2-3 ways Claude has helped you
+- What challenges have you encountered?
+- Confidence level now? (1-5)
+
+**End-of-Semester Reflection:**
+- Would you continue using Claude next semester? (Y/N)
+- What was most valuable about Claude?
+- What would you recommend to other faculty?
+- Confidence level? (1-5)
+
+**Target Metrics:**
+- 80%+ of faculty report increased confidence by semester end
+- 90%+ plan to continue using Claude
+- Average confidence score increases from ~2.5 to ~4.0
+
+---
+
+## Success Indicators
+
+**Faculty are confident when they:**
+1. Use Claude regularly for course preparation (weekly or more)
+2. Can articulate Claude's strengths and limitations
+3. Troubleshoot student issues involving Claude
+4. Design assignments that leverage Claude appropriately
+5. Share tips and techniques with colleagues
+6. Advocate for continued AI integration
+
+**Most important:** Faculty view Claude as a helpful tool, not a threat or burden.
+
 ## Conclusion
 
 This implementation plan provides a structured, realistic path to successfully integrating Claude AI into BYU Computer Science courses by Fall 2026. The phased approach with clear milestones, responsible parties, and risk mitigation strategies positions the department for a successful pilot that can expand to serve more students in subsequent semesters.
