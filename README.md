@@ -18,4 +18,13 @@ This document includes:
 2. [Implementation Plan](BYU_CS_Implementation_Plan.md)
 3. [An example project in CS 260](CS260_Assignment_Example_with_Claude.md)
 
-"The tools to multiply human output by a factor of five are already here. They require only a willingness to stop thinking of AI as an assistant and start treating it as a workforce. The programmers who make that mental leap first won't just be more productive. They'll be playing an entirely different game — and everyone else will still be typing." [Boris Cherny, creator of Claude code](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)
+The tools to multiply human output by a factor of five are already here. They require only a willingness to stop thinking of AI as an assistant and start treating it as a workforce. The programmers who make that mental leap first won't just be more productive. They'll be playing an entirely different game — and everyone else will still be typing. [Boris Cherny, creator of Claude code](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)
+
+AI IDE Comparison (2026)
+
+| Tool                 | Monthly Pricing          | Student / Educator Tier                  | Available LLMs                                      | Best Superpower                                                                                      |
+| -------------------- | ------------------------ | ---------------------------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Antigravity (Google) | $0 (Preview) / $20 (Pro) | 1 Year Free Pro (via Google AI Student)  | Gemini 3 Pro/Flash, Claude 4.5 Sonnet/Opus, GPT-OSS | Mission Control: Runs multiple agents in parallel; has a built-in AI-controlled browser for testing. |
+| Cursor (Anysphere)   | $20 (Pro)                | 1 Year Free Pro (via SheerID)            | Claude 4.5 Sonnet, GPT-5.2, Cursor-Small            | Tab / Composer: Best flow state; the AI predicts your next edit before you even type it.             |
+| Windsurf (Codeium)   | $15 (Pro)                | Varies (Free for many university emails) | Claude 4.5 Sonnet, GPT-5.2, Codeium SWE-1           | Cascade Engine: Best at understanding massive monorepos with thousands of files.                     |
+| GitHub Copilot       | $10 (Indiv)              | Forever Free (GitHub Global Campus)      | Claude 3.5/4.5 Sonnet, GPT-4o/5.2, Gemini 1.5/3 Pro | Ecosystem: Deepest integration with GitHub PRs, Actions, and Issues.                                 |
