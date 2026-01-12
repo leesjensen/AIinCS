@@ -8,7 +8,7 @@
 > - I don't know what the AI grader wants
 > - What am I suppose to do?
 >
-> Also what about UI testing. It looks like everything is API testing. It is a web app and so you really need to test the frontend. Google's Antigravity has really slick testing via the browser.
+> Also, what about UI testing? It looks like everything is API testing. It is a web app and so you really need to test the frontend. Google's Antigravity has really slick testing via the browser.
 
 **Course:** CS 260 - Web Programming
 **Assignment:** Build a Full-Stack Restaurant Review Application
