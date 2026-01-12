@@ -4,13 +4,13 @@ This repository includes an analysis of how to prepare students to develop skill
 
 Mark Clement experimented with using claude to create a voting system (front end, back end and database) in 30 minutes. He then tried using Gemini. After 4 hours he gave up. Claude installs everything for you, Gemini gives you instructions on how to install things yourself. There were version problems and it seemed like students would have a difficult time using Gemini. Eric Ringger indicated that his research indicates that Claude is a long way ahead of Gemini, Chat, Copilot in pair programming capabilities. Our recommendation is that we introduce students to the best platform available rather than pinching a penny and providing student with a difficult to use framework.
 
-> [!NOTE] Lee
+> [!NOTE]
 >
-> It would be helpful to define what we mean by `Claude`. Are we talking about the LLM? The Agent architecture `Claude Code`, and IDE that uses Claude `Cursor` or `VS Code` with the Claude extension? This is going to be important as we introduce students so that they don't get lost in the hype and myriad of solutions.
+> `LEE` It would be helpful to define what we mean by `Claude`. Are we talking about the LLM? The Agent architecture `Claude Code`, and IDE that uses Claude `Cursor` or `VS Code` with the Claude extension? This is going to be important as we introduce students so that they don't get lost in the hype and myriad of solutions.
 
-> [!NOTE] Lee
+> [!NOTE]
 >
-> Do we understand the pricing model? For example, GitHub provides a generous education usage of Copilot that allows you to use whatever LLM you want underneath its agent workflow. This allows you to switch to the model that perform best for a specific task. Google has Antigravity (basically windsurf), with a free tier, which with their new Gemini 3 models has been highly rated. It looks like Cursor has a 1 year education plan, but after that it is $20/month.
+> `LEE` Do we understand the pricing model? For example, GitHub provides a generous education usage of Copilot that allows you to use whatever LLM you want underneath its agent workflow. This allows you to switch to the model that perform best for a specific task. Google has Antigravity (basically windsurf), with a free tier, which with their new Gemini 3 models has been highly rated. It looks like Cursor has a 1 year education plan, but after that it is $20/month.
 
 This document includes:
 

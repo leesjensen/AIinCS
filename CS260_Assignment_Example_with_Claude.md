@@ -1,8 +1,8 @@
 # CS 260 Assignment Example: Restaurant Review App with Claude Integration
 
-> [!NOTE] Lee
+> [!NOTE]
 >
-> This seems great. We should try it ourselves first. It will be a significant mental shift for our students to move to this model. They love detailed rubrics. Possible reactions will likely be:
+> `LEE` This seems great. We should try it ourselves first. It will be a significant mental shift for our students to move to this model. They love detailed rubrics. Possible reactions will likely be:
 >
 > - The AI grader isn't working right
 > - I don't know what the AI grader wants

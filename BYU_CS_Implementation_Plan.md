@@ -18,9 +18,9 @@ This implementation plan outlines the timeline and key milestones for integratin
 
 ## Timeline Overview
 
-> [!NOTE] Lee
+> [!NOTE]
 >
-> Somehow this seems too fast and too slow at the same time. Perhaps too fast for our department to absorb and too slow for what our students need. This feels like a large allocation of resources in order to accomplish all of these goals in the given timeline. Three different instructors, working with IT, allocating budgets, distributing licenses, creating custom autograders, maintaining autograders, enhancing curriculum, training TAs, gaining experience with the tools, and getting faculty acceptance. All over a year period. This feels much larger than a committee assignment. More like the scope of a new course creation. Except we are proposing three course creations.
+> `LEE` Somehow this seems too fast and too slow at the same time. Perhaps too fast for our department to absorb and too slow for what our students need. This feels like a large allocation of resources in order to accomplish all of these goals in the given timeline. Three different instructors, working with IT, allocating budgets, distributing licenses, creating custom autograders, maintaining autograders, enhancing curriculum, training TAs, gaining experience with the tools, and getting faculty acceptance. All over a year period. This feels much larger than a committee assignment. More like the scope of a new course creation. Except we are proposing three course creations.
 
 ```
 Jan-Apr 2026: Planning & Preparation

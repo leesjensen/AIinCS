@@ -459,9 +459,9 @@ Based on department priorities and faculty readiness, the Fall 2026 launch will 
 - **Use cases:** HTML/CSS/JavaScript scaffolding, framework learning, API design, full-stack architecture, debugging browser issues
 - **Assessment:** Autograder tests API design, accessibility, security basics, testing, and architectural documentation
 
-> [!NOTE] Lee
+> [!NOTE]
 >
-> We have to be careful with 260 to make sure they don't just create their entire creative work with AI and not understand what they are doing. That is certainly possible and would basically be wasting their time. What I would like to do here is to start with **level 1** and use AI to accelerate their learning by giving them an AI tutor and small interactive exercises where they can get feedback from AI. Then move to **level 2** where the AI gives feedback on their design, code, and architecture. Finally you could do level 3 where they code with AI. Perhaps as a midterm or final where they have to build a specific website in a limited amount of time. AI would then verify that the website works and give them a grade. This could be contested and graded by a TA.
+> `LEE` We have to be careful with 260 to make sure they don't just create their entire creative work with AI and not understand what they are doing. That is certainly possible and would basically be wasting their time. What I would like to do here is to start with **level 1** and use AI to accelerate their learning by giving them an AI tutor and small interactive exercises where they can get feedback from AI. Then move to **level 2** where the AI gives feedback on their design, code, and architecture. Finally you could do level 3 where they code with AI. Perhaps as a midterm or final where they have to build a specific website in a limited amount of time. AI would then verify that the website works and give them a grade. This could be contested and graded by a TA.
 
 **CS 340: Software Design**
 
@@ -477,9 +477,9 @@ Based on department priorities and faculty readiness, the Fall 2026 launch will 
 - **Use cases:** Test case generation, CI/CD pipeline configuration, automated testing strategies, deployment scripting, monitoring setup
 - **Assessment:** Autograder checks pipeline functionality, test coverage, quality metrics, and documented testing strategy
 
-> [!NOTE] Lee
+> [!NOTE]
 >
-> Testing in 329 could really benefit from AI. I worry about complex CI pipelines. There is so much context that is outside of the Agent that it might cause more problems than it is worth unless the learner already knows what they are doing.
+> `LEE` Testing in 329 could really benefit from AI. I worry about complex CI pipelines. There is so much context that is outside of the Agent that it might cause more problems than it is worth unless the learner already knows what they are doing.
 >
 > 329 could also use AI as an introduction to agentic programming. For example, we could use MCP to give access to the observability logs to do automatic detection of anomalies.
 
